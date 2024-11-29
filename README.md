@@ -33,7 +33,7 @@ use dhtech\BitGoSDK\BitGoSDK;
 Or if put the following in your `composer.json`:
 
 ```json
-"dhtech/bitgosdk-php": "*"
+"dhtech/bitgosdk-php": "*" 
 ```
   
 ## Example
@@ -60,11 +60,5 @@ Keep your cacert.pem always up to date. You can find updates on the site [curl.h
 
 ## Credits
 
-- [Neto Melo](https://github.com/dhtech)
+- [Pasha Zahari](https://github.com/DigitalHustlaz)
 
-## Donate
-
-[![Donate BTC](https://img.shields.io/badge/donate-BTC-ff9900.svg?style=for-the-badge)](https://www.blockchain.com/btc/address/bc1pduj90df9cs3md3gym3q809slfv2x5phnpv8xznajys5q3tlulnzqt3flwn)
-[![Donate ETH](https://img.shields.io/badge/donate-ETH-3C3C3D.svg?style=for-the-badge)](https://etherscan.io/address/0xeef9220639F14E7A0FD825AAAd0574e5a8aD7A4B)
-[![Donate LTC](https://img.shields.io/badge/donate-LTC-D3D3D3.svg?style=for-the-badge)](https://blockchair.com/litecoin/address/ltc1q508qfkd09vyya6c5zkfx4r248pf3ezj9ngjdr2)
-[![Donate with PayPal](https://img.shields.io/badge/donate-PayPal-blue.svg?style=for-the-badge)](https://www.paypal.com/donate/?business=T7RVRCXLZXB58&no_recurring=0&currency_code=USD)
