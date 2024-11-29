@@ -1,10 +1,10 @@
 <?php
 
 
-namespace dht\BitGoSDK;
+namespace dhtech\BitGoSDK;
 
-use dht\BitGoSDK\Enum\CurrencyCode;
-use dht\BitGoSDK\Enum\AddressType;
+use dhtech\BitGoSDK\Enum\CurrencyCode;
+use dhtech\BitGoSDK\Enum\AddressType;
 
 class BitGoSDK {
 

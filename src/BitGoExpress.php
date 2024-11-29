@@ -1,9 +1,9 @@
 <?php
 
 
-namespace dht\BitGoSDK;
+namespace dhtech\BitGoSDK;
 
-use dht\BitGoSDK\Enum\CurrencyCode;
+use dhtech\BitGoSDK\Enum\CurrencyCode;
 
 class BitGoExpress {
 

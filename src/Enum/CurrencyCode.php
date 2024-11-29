@@ -1,7 +1,7 @@
 <?php
 
 
-namespace dht\BitGoSDK\Enum;
+namespace dhtech\BitGoSDK\Enum;
 
 abstract class CurrencyCode {
 

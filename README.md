@@ -3,15 +3,10 @@
 
 BitGoSDK written in PHP. This SDK contains methods for easily interacting with the BitGo API.
 
-[![Latest Stable Version](https://poser.pugx.org/neto737/bitgosdk-php/version?style=for-the-badge)](https://packagist.org/packages/neto737/bitgosdk-php)
-[![Total Downloads](https://poser.pugx.org/neto737/bitgosdk-php/downloads?style=for-the-badge)](https://packagist.org/packages/neto737/bitgosdk-php)
-[![Latest Unstable Version](https://poser.pugx.org/neto737/bitgosdk-php/v/unstable?style=for-the-badge)](//packagist.org/packages/neto737/bitgosdk-php)
-[![License](https://poser.pugx.org/neto737/bitgosdk-php/license?style=for-the-badge)](https://packagist.org/packages/neto737/bitgosdk-php)
-[![PHP Version Require](https://poser.pugx.org/neto737/bitgosdk-php/require/php?style=for-the-badge)](https://packagist.org/packages/neto737/bitgosdk-php)
 
 ## Requirements
 
-- PHP 7.0 or earlier with:
+- PHP 8.3 or earlier with:
   - cURL
   - BCMath
 
@@ -24,7 +19,7 @@ To install the SDK, you will need to be using [Composer](http://getcomposer.org/
 curl -sS https://getcomposer.org/installer | php
 
 # Add the BitGoSDK as a dependency
-php composer.phar require neto737/bitgosdk-php
+php composer.phar require dhtech/bitgosdk-php
 ```
 
 Next, require Composer's autoloader, in your application, to automatically load the BitGoSDK in your project:
@@ -32,13 +27,13 @@ Next, require Composer's autoloader, in your application, to automatically load 
 ```php
 require 'vendor/autoload.php';
 
-use neto737\BitGoSDK\BitGoSDK;
+use dhtech\BitGoSDK\BitGoSDK;
 ```
 
 Or if put the following in your `composer.json`:
 
 ```json
-"neto737/bitgosdk-php": "*"
+"dhtech/bitgosdk-php": "*"
 ```
   
 ## Example
@@ -46,8 +41,8 @@ Or if put the following in your `composer.json`:
 ```php
 require 'vendor/autoload.php';
 
-use neto737\BitGoSDK\BitGoSDK;
-use neto737\BitGoSDK\Enum\CurrencyCode;
+use dhtech\BitGoSDK\BitGoSDK;
+use dhtech\BitGoSDK\Enum\CurrencyCode;
 
 $bitgo = new BitGoSDK('YOUR_API_KEY_HERE', CurrencyCode::BITCOIN, false);
 $bitgo->walletId = 'YOUR_WALLET_ID_HERE';
@@ -65,7 +60,7 @@ Keep your cacert.pem always up to date. You can find updates on the site [curl.h
 
 ## Credits
 
-- [Neto Melo](https://github.com/neto737)
+- [Neto Melo](https://github.com/dhtech)
 
 ## Donate
 

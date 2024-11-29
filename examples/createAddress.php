@@ -2,8 +2,8 @@
 
 require 'vendor/autoload.php';
 
-use dht\BitGoSDK\BitGoSDK;
-use dht\BitGoSDK\Enum\CurrencyCode;
+use dhtech\BitGoSDK\BitGoSDK;
+use dhtech\BitGoSDK\Enum\CurrencyCode;
 
 $coin = CurrencyCode::BITCOIN_TESTNET;
 
