@@ -1,0 +1,26 @@
+{
+    "name": "dht/bitgosdk-php",
+    "description": "A BitGo SDK written in PHP",
+    "type": "library",
+    "keywords": ["bitgo", "sdk", "bitcoin"],
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Pasha Zahari",
+            "email": "pashaz@digitalhustlaz.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "dht\\BitGoSDK\\": "src/"
+        }
+    },
+
+    "require": {
+        "php": ">=8.3",
+        "ext-curl": "*",
+        "ext-bcmath": "*"
+    }
+}
