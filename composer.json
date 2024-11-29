@@ -1,5 +1,5 @@
 {
-    "name": "dht/bitgosdk-php",
+    "name": "dhtech/bitgosdk-php",
     "description": "A BitGo SDK written in PHP",
     "type": "library",
     "keywords": ["bitgo", "sdk", "bitcoin"],
@@ -14,7 +14,7 @@
 
     "autoload": {
         "psr-4": {
-            "dht\\BitGoSDK\\": "src/"
+            "dhtech\\BitGoSDK\\": "src/"
         }
     },
 

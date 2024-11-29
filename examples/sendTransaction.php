@@ -2,9 +2,9 @@
 
 require 'vendor/autoload.php';
 
-use dht\BitGoSDK\BitGoSDK;
-use dht\BitGoSDK\BitGoExpress;
-use dht\BitGoSDK\Enum\CurrencyCode;
+use dhtech\BitGoSDK\BitGoSDK;
+use dhtech\BitGoSDK\BitGoExpress;
+use dhtech\BitGoSDK\Enum\CurrencyCode;
 
 $hostname = 'localhost';
 $port = 3080;
